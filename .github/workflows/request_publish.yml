@@ -26,6 +26,7 @@ jobs:
         with:
           path: contents
           repository: jnkn6/digital_garden
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
