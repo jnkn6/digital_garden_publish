@@ -24,7 +24,7 @@ jobs:
       - name: Clone contents repository
         uses: actions/checkout@v4
         with:
-          path: contents
+          path: content
           repository: jnkn6/digital_garden
           ref: main
           token: ${{ secrets.PAT }}
