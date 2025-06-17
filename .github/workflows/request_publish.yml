@@ -15,7 +15,11 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
+
+env:
+  BASE_URL: ${{ secrets.BASE_URL }}
+  BLOG_URL: ${{ secrets.BLOG_URL }}
+
 jobs:
   build:
     runs-on: ubuntu-22.04
