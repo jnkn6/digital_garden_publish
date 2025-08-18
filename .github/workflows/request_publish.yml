@@ -25,11 +25,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Clone Quartz repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0 # Fetch all history for git info
       - name: Clone contents repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: content
           repository: jnkn6/digital_garden
